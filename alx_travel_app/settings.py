@@ -162,6 +162,7 @@ REST_FRAMEWORK = {
 }
 
 
+
 CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
 CELERY_RESULT_BACKEND = 'rpc://'  # optional
 CELERY_ACCEPT_CONTENT = ['json']
